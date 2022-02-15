@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project has a simple react folder structure with Header and Menu navigation on the top, a slider component to show on the home page component.
+
 ## Available Scripts
 
 In the project directory, you can run:
