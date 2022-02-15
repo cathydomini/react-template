@@ -1,0 +1,22 @@
+.slide_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: 1 solid red;
+}
+.slide h2 {
+  display: flex;
+  justify-content: center;
+}
+.slide_container img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+.left-arrow {
+  flex: 1;
+}
+.right-arrow {
+  flex: 1;
+}
