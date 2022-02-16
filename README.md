@@ -2,7 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project has a simple react folder structure with Header and Menu navigation on the top, a slider component to show on the home page component.
+This project has a simple react folder structure with Header and Navbar components on the top, a slider component to show on the home page component. All the components are under components folder.
+In Home.js, we use https://api.thedogapi.com/v1/images/search?limit=10 to pull images, extrat image url and title to feed the Slide.js component.
 
 ## Available Scripts
 

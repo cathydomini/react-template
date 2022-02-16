@@ -14,10 +14,11 @@ const Slide = ({slides}) => {
     setCurrent (current === 0 ? len - 1 : current - 1);
   };
   useEffect (() => {
-    setTimeout (() => {
+    const timer = setTimeout (() => {
       setCurrent (current === len - 1 ? 0 : current + 1);
     }, 8000);
-  });
+    return () =>clearTimeout(timer);
+  }, []);
 
   if (!Array.isArray (slides) || slides.length <= 0) {
     return null;
